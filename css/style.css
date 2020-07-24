@@ -25,7 +25,7 @@ body {
 /* Main */
 .main-container {
   background-color: var(--color-gray);
-  margin: 2% 1.5%;
+  margin: 1.5% 0.6%;
   border-radius: 5px;
 }
 
@@ -47,15 +47,54 @@ body {
 .header__description {
   margin-top: 1.2%;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 100;
 }
+
+/* ------SECTION IMAGE------- */
 
 .section-img {
   text-align: center;
+  padding: 1.5rem;
+  background-color: var(--color-gray);
+}
+
+.section-img figcaption {
+  background-color: var(--color-white);
+  border-radius: 2px;
 }
 
 .section-img img {
   width: 102.4rem;
   height: 62.3rem;
-  box-shadow: 0px 10px 5px -3px rgba(0, 0, 0, 0.75);
+  margin-top: 1.5%;
+}
+
+.section-img h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+/*--------SECTION TIMELINE----------- */
+
+.timeline {
+}
+
+.timeline__title {
+  text-align: center;
+  color: var(--color-black);
+  font-size: 2rem;
+  padding: 4rem;
+}
+
+.timeline__list {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.timeline__item {
+}
+
+.timeline__item span {
+  font-weight: bold;
 }
