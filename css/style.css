@@ -98,3 +98,8 @@ body {
 .timeline__item span {
   font-weight: bold;
 }
+
+/* Utilities */
+.bold {
+  font-weight: 800;
+}
