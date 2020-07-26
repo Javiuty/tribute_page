@@ -88,15 +88,14 @@ body {
 }
 
 .timeline__list {
-  text-align: center;
   font-size: 1.5rem;
+  text-align: left;
+  width: 40%;
+  margin: 0 auto;
+  line-height: 5rem;
 }
 
 .timeline__item {
-}
-
-.timeline__item span {
-  font-weight: bold;
 }
 
 /* Utilities */
