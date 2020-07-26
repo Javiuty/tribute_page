@@ -22,11 +22,16 @@ body {
   font-weight: 100;
 }
 
+a {
+  color: var(--color-blue);
+}
 /* Main */
 .main-container {
   background-color: var(--color-gray);
   margin: 1.5% 0.6%;
   border-radius: 5px;
+  padding-bottom: 2rem;
+  margin-bottom: 4.5%;
 }
 
 /* -----------Header----------- */
@@ -101,4 +106,25 @@ body {
 /* Utilities */
 .bold {
   font-weight: 800;
+}
+
+/* Quote Section */
+
+.quote h3 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 3.5rem;
+  color: var(--color-black);
+}
+
+/* ---FOOTER SECTION----- */
+
+.footer h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color-black);
+  font-weight: 700;
 }
