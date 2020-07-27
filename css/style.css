@@ -69,8 +69,8 @@ a {
 }
 
 .section-img img {
-  width: 102.4rem;
-  height: 62.3rem;
+  width: 55%;
+  height: auto;
   margin-top: 1.5%;
 }
 
