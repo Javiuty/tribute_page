@@ -1,1 +1,1 @@
-<img src="./portada.jpg" width="350" title="hover text">
+<img src="./portada.png" width="350" title="hover text">
